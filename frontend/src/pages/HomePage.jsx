@@ -6,7 +6,7 @@ import { toast } from 'react-hot-toast';
 import NoteCard from '../components/NoteCard';
 import NotesNotFound from '../components/NotesNotFound';
 
-const homePage = () => {
+const HomePage = () => {
   const [isRateLimited, setIsRateLimited]= useState(false);
   const [notes, setNotes]=useState([]);
   const [loading, setLoading]=useState(true);
@@ -55,4 +55,4 @@ const homePage = () => {
   )
 }
 
-export default homePage
+export default HomePage

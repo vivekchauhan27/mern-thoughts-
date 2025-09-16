@@ -4,7 +4,7 @@ import { ArrowLeftIcon } from 'lucide-react'
 import { toast } from 'react-hot-toast';
 import api from '../lib/axios';
 
-const createPage = () => {
+const CreatePage = () => {
   const [title,setTitle]= useState("");
   const [content,setContent]= useState("");
   const [loading,setLoading]= useState(false);
@@ -94,4 +94,4 @@ const createPage = () => {
   )
 }
 
-export default createPage
+export default CreatePage

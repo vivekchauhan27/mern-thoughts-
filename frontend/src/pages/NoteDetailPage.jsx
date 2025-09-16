@@ -9,7 +9,7 @@ import { Trash2Icon } from 'lucide-react';
 
 
 
-const noteDetailPage = () => {
+const NoteDetailPage = () => {
   const [note, setNote]=useState(null);
   const [loading, setLoading]=useState(true);
   const [saving , setSaving]=useState(false);
@@ -133,4 +133,4 @@ const noteDetailPage = () => {
   )
 }
 
-export default noteDetailPage
+export default NoteDetailPage
